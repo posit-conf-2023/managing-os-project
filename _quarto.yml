@@ -1,0 +1,25 @@
+project:
+  type: book
+
+book:
+  title: "Managing an open source project workshop"
+  author: "Tracy Teal"
+  date: "8/29/2023"
+  chapters:
+    - index.qmd
+    - project-goals.qmd
+    - managing-expectations.qmd
+    - decision-making.qmd
+    - thriving.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+

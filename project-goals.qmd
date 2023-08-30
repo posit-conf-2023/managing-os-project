@@ -1,0 +1,27 @@
+# Setting project goals
+
+
+::: {.callout-tip}
+## Lesson objectives
+
+In this lesson we'll consider a few questions that help you think about and articulate the goals for your open source project. 
+:::
+
+Your project likely started out with some ideas in mind of what you or others were trying to achieve. That might have been to solve a problem you were having, an interesting idea to explore, or a shared challenge people were experiencing. Whatever those reasons were, you might not have been totally aware of them at the time, and those goals may have shifted over time. 
+
+The first step to managing an open source project is to visit, or revisit, these ideas around what you think your project is aiming to achieve, the resources you have available to you, and how you and the team you work with work best. 
+
+The people who use and contribute to your project all might have different ideas for any of these questions. Hearing from the community is crucial, but ultimately **you get and your team get to decide the goals for your project**. Once you know this, you can more clearly articulate the decisions you make, why and how you make them, expectations for the work, and how to contribute. 
+
+So, like with most things, we start first with more questions than answers! 
+
+## Draft questions
+
+- How many people use your project?
+- What type of people use your project?
+- What percent of people in a field use the project?
+- How many contributors do you have?
+- What type of contributors?
+- How long has the project been around?
+- How is the project, or the people working on the project, funded?
+- Who are all the stakeholders?

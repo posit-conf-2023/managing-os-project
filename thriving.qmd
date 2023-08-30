@@ -1,0 +1,7 @@
+# Surviving and thriving as an open source maintainer
+
+::: {.callout-tip}
+## Lesson objectives
+
+In this lesson we'll discuss how to not just survive as an open source maintainer, but to thrive! We'll explore what's most important to you to make this possible, and the systems, structures and communities to connect with to help make this possible. 
+:::

@@ -1,0 +1,23 @@
+# Managing expectations
+
+::: {.callout-tip}
+## Lesson objectives
+
+In this lesson we'll discuss the different ways you can communicate expectations for your project and work with some templates to create that documentation for your project.
+:::
+
+Setting up your project is about setting expectations - about what you expect from people and what people can expect from the project.
+
+People have a lot of different ideas of what open source means, if they’re new or have been around awhile, what other communities they’ve worked with. They’ll bring all of these things with them to your project. To ensure you and they have the best experinece with your project, it’s good to be clear about expecationa, what they can expect from you and you can expect from them. This means you need to write it down and put it somewhere expected and ifnablae. It does not mean everyone is going to read it who comes to your project, but it’s something that is theer for onbaording and something you can point to in replies. While we’re talking about open source, and that means certain things, there are many different modes of ‘open contribution’.
+
+Now, when do you need to write these things down? Sooner than you think you do, but not too soon. There are some things you need to write down write away, and others that can come later or change over time. 
+
+## Project setup
+
+Some standard files you'll have are a license and a Code of Conduct. If you don't have special needs for your project, the MIT License is likely a good choice, and the standard GitHub Code of Conduct. Remember to identify a reporting process for your Code of Conduct. That's a key component, just having the file is not enough. 
+
+There are two main categories of people who will engage with your project -  contributors (people who are contributing code, documentation or issues to the project) and users (people who primarily are using the code for their own projects). We'll consider both categories and how to set and manage expectations for each group. 
+
+## For people contributing to the project
+
+## For people using the project
