@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Managing an open source project workshop",
+    "section": "",
+    "text": "Workshop overview\n🗓️ September 17, 2023\n⏰ 09:00 - 17:00\n🏨 TBA\n✍️ Click here to register\nAn open source project starts with ideas and code, but it continues with people. We know that most open source projects rely on just one or two people for most of the work. And code is just a small part of these roles, which also include project management, conflict resolution, decision making in uncertain situations, building an inclusive community, and lots and lots of communication. Whether you’re just starting a project, interested in getting involved in open source, or already have a community of thousands, there are some tips, tricks and templates that you can use to make maintaining an open source project more manageable.\nIn this interactive 1-day workshop you’ll learn some key practices for effect open source project management. You’ll walk away with new approaches for making project decisions, better strategies to manage user and contributor interactions, and better ways to set boundaries. Different projects make different decisions based on their needs and in this workshop you’ll see what types of decisions are possible, and how you can make the ones appropriate for you. During the workshop, you’ll create useful documents for your repository and begin to outline some processes you can finalize later or with your team.\nThis workshop is for you if you:\nThe workshop will include four modules:\nThroughout each module we’ll have a general presentation and discussion of the topic, and then hands-on time for you to consider your own project, and to start to create some of the documentation or resources you need.\nNo pre-work is required for this workshop, but part of the workshop will be asking you to consider some questions for your own project. So, you should be familiar with at least one open source project, and have reviewed the types of non-code issues or challenges you’re seeing with the project currently.\nYou should plan to bring your laptop to the workshop, so you can review or look up things about your open source project. We will be writing some documentation, and a familiarity with GitHub and markdown syntax is assumed.\nWe will also be using pen and paper! These will be provided at the workshop, but if you have a favorite brainstorming pen or pencil, please bring it along."
+  },
+  {
+    "objectID": "index.html#instructors",
+    "href": "index.html#instructors",
+    "title": "Managing an open source project workshop",
+    "section": "Instructors",
+    "text": "Instructors\n\nInstructor: Dr. Tracy Teal (she/her) is the Open Source Program Director at Posit. Previously, she was a co-founder of Data Carpentry and the Executive Director of The Carpentries. She developed open source bioinformatics software as an assistant professor at Michigan State University and holds a PhD in computation and neural systems from California Institute of Technology. Tracy is involved in the open source software and reproducible research communities, including serving on advisory committees for NumFOCUS, pyOpenSci, the R Consortium and carbonplan, and has been working with open source communities, developing curriculum, and teaching people how to work with data and code as a developer, instructor and project leader throughout her career.\nTA: Isabel Zimmerman"
+  },
+  {
+    "objectID": "project-goals.html#draft-questions",
+    "href": "project-goals.html#draft-questions",
+    "title": "1  Setting project goals",
+    "section": "1.1 Draft questions",
+    "text": "1.1 Draft questions\n\nHow many people use your project?\nWhat type of people use your project?\nWhat percent of people in a field use the project?\nHow many contributors do you have?\nWhat type of contributors?\nHow long has the project been around?\nHow is the project, or the people working on the project, funded?\nWho are all the stakeholders?"
+  },
+  {
+    "objectID": "managing-expectations.html#project-setup",
+    "href": "managing-expectations.html#project-setup",
+    "title": "2  Managing expectations",
+    "section": "2.1 Project setup",
+    "text": "2.1 Project setup\nSome standard files you’ll have are a license and a Code of Conduct. If you don’t have special needs for your project, the MIT License is likely a good choice, and the standard GitHub Code of Conduct. Remember to identify a reporting process for your Code of Conduct. That’s a key component, just having the file is not enough.\nThere are two main categories of people who will engage with your project - contributors (people who are contributing code, documentation or issues to the project) and users (people who primarily are using the code for their own projects). We’ll consider both categories and how to set and manage expectations for each group."
+  },
+  {
+    "objectID": "managing-expectations.html#for-people-contributing-to-the-project",
+    "href": "managing-expectations.html#for-people-contributing-to-the-project",
+    "title": "2  Managing expectations",
+    "section": "2.2 For people contributing to the project",
+    "text": "2.2 For people contributing to the project"
+  },
+  {
+    "objectID": "managing-expectations.html#for-people-using-the-project",
+    "href": "managing-expectations.html#for-people-using-the-project",
+    "title": "2  Managing expectations",
+    "section": "2.3 For people using the project",
+    "text": "2.3 For people using the project"
+  },
+  {
+    "objectID": "decision-making.html",
+    "href": "decision-making.html",
+    "title": "3  Decision making",
+    "section": "",
+    "text": "Lesson objectives\n\n\n\nIn this lesson we’ll discuss decision making for your project. How can you determine how you make decisions? Resolve conflicts? How do you communicate with others how you make decisions?"
+  },
+  {
+    "objectID": "thriving.html",
+    "href": "thriving.html",
+    "title": "4  Surviving and thriving as an open source maintainer",
+    "section": "",
+    "text": "Lesson objectives\n\n\n\nIn this lesson we’ll discuss how to not just survive as an open source maintainer, but to thrive! We’ll explore what’s most important to you to make this possible, and the systems, structures and communities to connect with to help make this possible."
+  }
+]
