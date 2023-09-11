@@ -2,9 +2,10 @@ project:
   type: book
 
 book:
-  title: "Managing an open source project workshop"
+  title: "Managing an open source project"
   author: "Tracy Teal"
   date: "8/29/2023"
+  repo-url: https://github.com/posit-conf-2023/managing-os-project
   chapters:
     - index.qmd
     - project-goals.qmd
@@ -12,12 +13,17 @@ book:
     - decision-making.qmd
     - thriving.qmd
     - references.qmd
+  sidebar: 
+    background: "#DCE1E3"
+    search: true
 
 bibliography: references.bib
 
 format:
   html:
-    theme: cosmo
+    theme:
+      - cosmo
+      - styles.scss
   pdf:
     documentclass: scrreprt
 
