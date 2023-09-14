@@ -1,27 +1,118 @@
-# Setting project goals
+# Setting project goals {number-depth: 1}
 
-
-::: {.callout-tip}
+::: callout-tip
 ## Lesson objectives
 
-In this lesson we'll consider a few questions that help you think about and articulate the goals for your open source project. 
+In this lesson we'll consider a few questions that help you think about and articulate the goals for your open source project.
 :::
 
-Your project likely started out with some ideas in mind of what you or others were trying to achieve. That might have been to solve a problem you were having, an interesting idea to explore, or a shared challenge people were experiencing. Whatever those reasons were, you might not have been totally aware of them at the time, and those goals may have shifted over time. 
+Your project likely started out with some ideas in mind of what you or others were trying to achieve. That might have been to solve a problem you were having, an interesting idea to explore, or a shared challenge people were experiencing. Whatever those reasons were, you might not have been totally aware of them at the time, and those goals may have shifted over time.
 
-The first step to managing an open source project is to visit, or revisit, these ideas around what you think your project is aiming to achieve, the resources you have available to you, and how you and the team you work with work best. 
+The first step to managing an open source project is to visit, or revisit, these ideas around what you think your project is aiming to achieve, the resources you have available to you, and how you and the team you work with work best.
 
-The people who use and contribute to your project all might have different ideas for any of these questions. Hearing from the community is crucial, but ultimately **you get and your team get to decide the goals for your project**. Once you know this, you can more clearly articulate the decisions you make, why and how you make them, expectations for the work, and how to contribute. 
+The people who use and contribute to your project all might have different ideas for any of these questions. Hearing from the community is crucial, but ultimately **you get and your team get to decide the goals for your project**. Once you know this, you can more clearly articulate the decisions you make, why and how you make them, expectations for the work, and how to contribute.
 
-So, like with most things, we start first with more questions than answers! 
+So, like with most things, we start first with more questions than answers!
 
-## Draft questions
+* [Slides](https://docs.google.com/presentation/d/1s_Oy-BoDUqjDbWoNr17xHQMvNhcRgGAZZzNE3fS_Rso/edit#slide=id.g129ffda1416_0_77)
+* [Worksheet](worksheets/project-goals-worksheet.pdf)
 
-- How many people use your project?
-- What type of people use your project?
-- What percent of people in a field use the project?
-- How many contributors do you have?
-- What type of contributors?
-- How long has the project been around?
-- How is the project, or the people working on the project, funded?
-- Who are all the stakeholders?
+We're going to go through the questions in the 'Project Goals' worksheet and answer them for your project. Note that none of these questions are meant to ask you to create solutions! This is about gathering information about your goals. 
+
+## Project Goals questions
+
+### The numbers
+
+Let's start with an overview of your project.
+
+- Project name:
+- Online resources: github repo, web site, etc
+- How long has your project been around?
+- About how many people use your project?
+- About how many contributors do you have? (however you define contributors)
+- About how many core project members do you have? (however you define that)
+- What stage would you describe your project? experimental, stable, sunsetting, something else?
+- What are you most proud of about this project (ok, this isn't a number)?
+
+
+::: callout-note
+## Exercise
+
+Answer these questions for your project. Pair up with someone else in the workshop and go talk through your responses with each other. 
+
+:::
+
+### Start with why. 
+
+You started or got involved in this project to solve some problem for yourself or others. Why are you involved in this project, who is that person you're trying to help? It's fine if this person is current, present or future you!
+
+### Your envisioned users
+
+Describe one or two types of people you envision your project serving
+    
+- What field(s) do they work or are living/working in that are relevant for your project?
+- When are they using your project? As a part of their work, their hobby, or managing their lives?
+- What tasks are they struggling with that your project addresses?
+- What are they trying to achieve in their work/life that's relevant for your project?
+- Are there any restrictions on how they can use your project? e.g. control on installation, access to data, etc. 
+- How much time do they have for this work?
+- Is this a core part of what they're trying to do, or something that's necessary, but not where they want to spend their time?
+- What's their level of programming/data science experience?
+- What other limitations or features are you trying to address for your users with your project?
+- What other questions did you think of about your users that you'd like to answer?
+
+### And onto how many
+
+Now that you've thought about an individual user or two, now let's consider how many people you'd like your project to be able to serve. 
+
+Considering your target users from above, how many people are in this category, where are they, and what percent of a field or community do they represent?
+
+Again, this is about your goals, not necessarily where you are now.
+
+- How many people does your target user(s) represent (in orders of magnitude)?
+- Are they easily identified and reached?
+- What percent of a field do they represent?
+- What does success look like for you? What percent of these people using your project is success? 
+
+::: callout-note
+## Exercise
+
+Answer these questions for your project. Pair up with someone else in the workshop. What's one thing you realized about who you're trying to serve with your project, going through these questions? 
+
+:::
+
+
+### You and your team
+
+OK, so you've thought about the people and problems you want to serve with your project. But it's just you and your team! Maybe your team is just you. So, what's important to you and your team, about the time you have and how you work best.
+
+- How many people would you consider to be core members of this project and who are they? (How you define this is up to you)
+- How much time do they have to work on this project, and is a part of work or outside-of-work time, or a mix, where that time would be sustainable? Be realistic! 
+- Are any of the team members paid to work on this project?
+- What parts of the project do you like working on best?
+- What parts of the project worry you the most?
+- On your team (if you have one), who likes to do what, and/or is good at different areas, on the project? (Not who does what, but who likes and/or is good at the different project aspects)
+- What do you see as some gaps, i.e. 'this work isn't anyone on the team's current area of strength'. 
+- What personally is success for you and your relationship with this project? Complete this sentence. In one year, I will be happy if I am spending X amount of time on this project, am excited about Y and not worried about Z. 
+
+::: callout-note
+## Exercise
+
+Answer these questions for your project. Pair up with someone else in the workshop. Share with them your response to the last question (what does success look like for you). 
+
+:::
+
+### Contributors
+
+Now that you've thought about who you want to serve with your project, and what's important for you and your team, the other piece of the project is contributors. What are your goals here? How do you see that people can best contribute?
+
+- What's an example of a contribution to your project that you really appreciated?
+- What is an example of a contribution that was difficult to handle?
+- Do you like to work through github, Slack, in person meetings or other channels?
+
+::: callout-note
+## Exercise
+
+Answer these questions for your project. We'll use the responses in future sections.
+
+:::

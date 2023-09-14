@@ -24,6 +24,7 @@ format:
     theme:
       - cosmo
       - styles.scss
+    number-depth: 1
   pdf:
     documentclass: scrreprt
 
