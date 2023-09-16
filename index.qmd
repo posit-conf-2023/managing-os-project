@@ -28,10 +28,10 @@ In this interactive 1-day workshop you'll learn some key practices for effect op
 
 The workshop will include four modules:
 
--   Setting project goals
--   Managing expectations
--   Decision making
--   Surviving and thriving as an open source maintainer
+-   [Setting project goals](project-goals.html)
+-   [Managing expectations](managing-expectations.html)
+-   [Decision making](decision-making.html)
+-   [Surviving and thriving as an open source maintainer](thriving.html)
 
 Throughout each module we'll have a general presentation and discussion of the topic, and then hands-on time for you to consider your own project, and to start to create some of the documentation or resources you need.
 

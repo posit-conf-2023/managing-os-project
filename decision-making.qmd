@@ -1,7 +1,9 @@
 # Decision making
 
-::: {.callout-tip}
+::: callout-tip
 ## Lesson objectives
 
-In this lesson we'll discuss decision making for your project. How can you determine how you make decisions? Resolve conflicts? How do you communicate with others how you make decisions? 
+In this lesson we'll discuss decision making for your project. How can you determine how you make decisions? Resolve conflicts? How do you communicate with others how you make decisions?
 :::
+
+

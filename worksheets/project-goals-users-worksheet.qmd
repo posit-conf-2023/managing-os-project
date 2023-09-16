@@ -1,0 +1,160 @@
+---
+title: "Managing an open source project workshop Project Goals Worksheet"
+format:
+  pdf:
+    colorlinks: true
+    mainfont: Arial
+---
+
+**Project overview**
+
+- Project name:
+- Online resources: github repo, web site, etc
+- How long has your project been around?
+- About how many people use your project?
+- About how many contributors do you have? (however you define contributors)
+
+- About how many core project members do you have? (however you define that)
+
+- What stage would you describe your project? experimental, stable, sunsetting, something else?
+
+- What are you most proud of about this project (ok, this isn't a number)?
+
+\
+
+**Describe one or two types of people you envision your project serving.**
+
+What field(s) do they work or are living/working in that are relevant for your project?
+
+\
+
+\
+
+When are they using your project? As a part of their work, their hobby, or managing their lives?
+
+\
+
+\
+
+What tasks are they struggling with that your project addresses?
+
+\
+
+\
+
+What are they trying to achieve in their work/life that's relevant for your project?
+
+\
+
+\
+
+Are there any restrictions on how they can use your project? e.g. control on installation, access to data, etc.
+
+\
+
+\
+
+How much time do they have for this work?
+
+\
+
+\
+
+Is this a core part of what they're trying to do, or something that's necessary, but not where they want to spend their time?
+
+\
+
+\
+
+What's their level of programming/data science experience?
+
+\
+
+\
+
+What other limitations or features are you trying to address for your users with your project?
+
+\
+
+\
+
+What other questions did you think of about your users that you'd like to answer?
+
+\
+\
+
+**Describe some things about the group(s) of people your project serves.**
+
+How many people does your target user(s) represent (in orders of magnitude)?
+\
+
+\
+
+Are they easily identified and reached?
+\
+
+\
+
+What percent of a field do they represent?
+\
+
+\
+
+What does success look like for you? What percent of these people using your project is success? 
+
+\
+
+**About you and your team**
+
+How many people would you consider to be core members of this project and who are they? (How you define this is up to you)
+\
+
+\
+
+How much time do they have to work on this project, and is a part of work or outside-of-work time, or a mix, where that time would be sustainable? Be realistic! 
+\
+
+\
+
+Are any of the team members paid to work on this project?
+\
+
+What parts of the project do you like working on best?
+\
+
+\
+
+What parts of the project worry you the most?
+\
+
+\
+
+On your team (if you have one), who likes to do what, and/or is good at different areas, on the project? (Not who does what, but who likes and/or is good at the different project aspects)
+\
+
+\
+
+What do you see as some gaps, i.e. 'this work isn't anyone on the team's current area of strength'. 
+\
+
+\
+
+What personally is success for you and your relationship with this project? Complete this sentence. In one year, I will be happy if I am spending X amount of time on this project, am excited about Y and not worried about Z. 
+
+\
+
+\
+
+**Describe some things about your contributors**
+
+What's an example of a contribution to your project that you really appreciated?
+\
+
+\
+
+What is an example of a contribution that was difficult to handle?
+\
+
+\
+
+Do you like to work through github, Slack, in person meetings or other channels?

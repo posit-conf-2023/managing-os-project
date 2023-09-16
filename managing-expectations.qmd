@@ -1,6 +1,6 @@
 # Managing expectations
 
-::: {.callout-tip}
+::: callout-tip
 ## Lesson objectives
 
 In this lesson we'll discuss the different ways you can communicate expectations for your project and work with some templates to create that documentation for your project.
@@ -8,16 +8,86 @@ In this lesson we'll discuss the different ways you can communicate expectations
 
 Setting up your project is about setting expectations - about what you expect from people and what people can expect from the project.
 
-People have a lot of different ideas of what open source means, if they’re new or have been around awhile, what other communities they’ve worked with. They’ll bring all of these things with them to your project. To ensure you and they have the best experinece with your project, it’s good to be clear about expecationa, what they can expect from you and you can expect from them. This means you need to write it down and put it somewhere expected and ifnablae. It does not mean everyone is going to read it who comes to your project, but it’s something that is theer for onbaording and something you can point to in replies. While we’re talking about open source, and that means certain things, there are many different modes of ‘open contribution’.
+People have a lot of different ideas of what open source means, if they're new or have been around awhile, what other communities they've worked with. They'll bring all of these things with them to your project. To ensure you and they have the best experinece with your project, it's good to be clear about expecationa, what they can expect from you and you can expect from them. This means you need to write it down and put it somewhere expected and ifnablae. It does not mean everyone is going to read it who comes to your project, but it's something that is there for onbaording and something you can point to in replies. While we're talking about open source, and that means certain things, there are many different modes of 'open contribution'.
 
-Now, when do you need to write these things down? Sooner than you think you do, but not too soon. There are some things you need to write down write away, and others that can come later or change over time. 
+Now, when do you need to write these things down? Sooner than you think you do, but not too soon. :)  There are some things you need to write down write away, and others that can come later or change over time.
 
 ## Project setup
 
-Some standard files you'll have are a license and a Code of Conduct. If you don't have special needs for your project, the MIT License is likely a good choice, and the standard GitHub Code of Conduct. Remember to identify a reporting process for your Code of Conduct. That's a key component, just having the file is not enough. 
+Some standard files you'll have are a license and a Code of Conduct. If you don't have special needs for your project, the MIT License is likely a good choice, and the standard GitHub Code of Conduct. Remember to identify a reporting process for your Code of Conduct. That's a key component, just having the file is not enough.
 
-There are two main categories of people who will engage with your project -  contributors (people who are contributing code, documentation or issues to the project) and users (people who primarily are using the code for their own projects). We'll consider both categories and how to set and manage expectations for each group. 
 
-## For people contributing to the project
 
-## For people using the project
+::: callout-note
+## Exercise
+
+Check your project for license and Code of Conduct files in your repository. Are they there? 
+
+In your Code of Conduct do you have:
+
+- contact information
+- information on who receives an email/report
+-  for the people who receive a report, do they have an idea of how to handle a report?
+
+If after looking through this information, you'd like to learn more about Codes of Conduct, this is a good resource. 
+
+:::
+
+While there are people who will mainly use your project, and not engage with the code, there's a spectrum of users to contributors, not clear categories. In open source, most contributors are also users of the software. That's why they want to contribute! 
+
+For this module we're going to focus on people who engage with the project through wherever you have the code for the project through issues and PRs. 
+
+When people share issues or PRs they usually have some expectation for a response. In the absense of information from the project on what that will be, people have a lot of their own ideas they bring to the interaction. Note, again, even if you write all of this down, people might not see it. But writing it down gives you something to point to, to respond. 
+So, you've articulated your goals for the project and your team. How should people share with you, and what can they expect as a response?
+
+Sometimes this information is in a CONTRIBUTING.md file, but you might have it in a README or somewhere else. 
+
+::: callout-note
+## Exercise
+
+Fill out this template for a CONTRIBUTING.md file for your project. 
+
+[CONTRIBUTING.md template](worksheets/CONTRIBUTING.md)
+
+:::
+
+
+You may have noticed in the CONTIBUTING file, we said that the guidelines were for people who are new contributors. That's because your project likely has different categories of contributors. 
+
+The tidyverse has a pull request guide that outlines three different types of contributors. For people in other modes of collaboration on your project, you should still be clear about the expectations for submission and review, but you likely want to address those differently than for someone who is submitting one or two issues/PRs to your project. 
+
+::: callout-note
+## Exercise
+
+Look at the .. section in the tidyverse PR guide. What types of collaboration do you have currently in your project? How might you adjust expectations for your project in the '...' mode, versus how the tidyverse guide does. 
+
+:::
+
+## Language 
+
+You've done a great job figuring out how you'd best like contributions, and your goals and boundaries for the project. Still, people won't necessarily see this information when they come to your project, so it will be a process of consistently onboarding new people and replying to issues and PRs. Ideally you want to be able to say no when needed, and still keep people engaged and feel included.
+
+These are some ideas and templates of language you can use in different situations. Note though, that everyone has their different style that's true to them, so adapt as needed to match who you and your project are. 
+
+### Examples
+
+These are some examples of response styles and approaches where you can see the style matches the maintainer, and also makes people feel positively about the project, even if the project isn't looking for a lot of active contributions.
+
+- bear project
+- tidyverse
+
+**What examples do you have that you like?**
+
+### Sample language
+
+These are some examples for different situations. Now, ChatGPT is likely to also give you some helpful starting places! 
+
+
+::: callout-note
+## Exercise
+
+Try adapting one of these language templates for one of your open issues or PRs.  
+
+:::
+
+
