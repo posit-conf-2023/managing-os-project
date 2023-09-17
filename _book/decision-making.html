@@ -143,7 +143,22 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#the-who-of-decision-making-governance" id="toc-the-who-of-decision-making-governance" class="nav-link active" data-scroll-target="#the-who-of-decision-making-governance">The ‘who’ of decision making: governance</a>
+  <ul class="collapse">
+  <li><a href="#single-maintainer" id="toc-single-maintainer" class="nav-link" data-scroll-target="#single-maintainer">Single maintainer</a></li>
+  <li><a href="#multi-person-project" id="toc-multi-person-project" class="nav-link" data-scroll-target="#multi-person-project">Multi-person project</a></li>
+  <li><a href="#multi-stakeholder-project" id="toc-multi-stakeholder-project" class="nav-link" data-scroll-target="#multi-stakeholder-project">Multi-stakeholder project</a></li>
+  </ul></li>
+  <li><a href="#the-how-of-decision-making" id="toc-the-how-of-decision-making" class="nav-link" data-scroll-target="#the-how-of-decision-making">The ‘how’ of decision making</a>
+  <ul class="collapse">
+  <li><a href="#resolving-conflict" id="toc-resolving-conflict" class="nav-link" data-scroll-target="#resolving-conflict">Resolving conflict</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -178,8 +193,81 @@ Lesson objectives
 <p>In this lesson we’ll discuss decision making for your project. How can you determine how you make decisions? Resolve conflicts? How do you communicate with others how you make decisions?</p>
 </div>
 </div>
+<p>Like any project, for your open source project, you need to make decisions about what to do, what to implement, what not, how to go about it, how to document something, or what language to use in an error message. Unlike some other projects you work on though, all the decisions you make are made in public. Therefore it’s useful to have a framework for how decisions are made, so people don’t just see a decision, but can see some of the process that you used to get there.</p>
+<p>Decision making has a ‘who’ and a ‘how’ component.</p>
+<p>Let’s start with ‘who’.</p>
+<section id="the-who-of-decision-making-governance" class="level2">
+<h2 class="anchored" data-anchor-id="the-who-of-decision-making-governance">The ‘who’ of decision making: governance</h2>
+<p>Governance is decision making. You set up governance structures, so you can make decisions for the project. Here again you need to think about project goals.</p>
+<p>I’ll start by being a little controversial here. You don’t always need a governance structure. If it’s just you working on the project and you’re making all the decisions, and it’s at an early lifecycle stage, that’s probably fine. That’s maybe less fine as the project beomces more central or other factors though. And here’s where I back off from that initial controversial claim. We can rephrase it as a single person making decisions is its own form of governance. We just don’t often think about it that way.</p>
+<p>So, let’s talk about a few differnt models.</p>
+<section id="single-maintainer" class="level3">
+<h3 class="anchored" data-anchor-id="single-maintainer">Single maintainer</h3>
+<p>So, it’s just you. You’re the primary contributor and docs writer and all the things. So, clearly you make all the decisions and everyone knows that, and it’s fine, right. Alas, no, 1) some people might not know that and 2) you still need to decide and communicate how you make decisions. Think of future you here, will you understand how past you made decisions.</p>
+<p>There’s not necessarily an obvious file or section to write about a governance model. However, you won’t have much to write here, so you could include some text in your CONTRIBUTING.md, even though someone could figure it out from the github information, like</p>
+<blockquote class="blockquote">
+<p>PERSON is the primary maintainer for this project. Decisions for the project will be made with (list or link to project goals) in mind and the need for continuing maintenance on the project. The project also needs to stay compatible with X, Y and Z.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>If you’d like to propose a new idea for the project, please share it an issue for discussion.</p>
+</blockquote>
+<p>Again, this will be something you can point back to if, e.g.&nbsp;someone puts in a PR that’s out of scope or will be hard to maintain.</p>
+</section>
+<section id="multi-person-project" class="level3">
+<h3 class="anchored" data-anchor-id="multi-person-project">Multi-person project</h3>
+<p>You’re growing or started this project as a collaboration. The main thing you need to do is make some decisions about how you’ll work together and make decisions. There’s a lot of models for this.</p>
+<p>Red Hat has a nice overview of six different models.</p>
+<p><a href="https://www.redhat.com/en/blog/understanding-open-source-governance-models">Understanding open source governance models</a></p>
+</section>
+<section id="multi-stakeholder-project" class="level3">
+<h3 class="anchored" data-anchor-id="multi-stakeholder-project">Multi-stakeholder project</h3>
+<p>How is a multi-stakeholder project different than a multi-person project? It’s different because you are at the stage where you have multiple types of stakeholders - users and contributors who may have competing needs or interests, and resources to put behind these different interests. This is where governance really shines. You need to be clear about how decisions for the project are made that serve the community as a whole. Otherwise you can end up in situations where work gets done just where people can put effort, and that might not be the top set of priorities for the project as a whole.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Exercise
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>In your project, who makes the decisions? Draft a couple of sentences about who makes the decisions for your project. This isn’t something you’d necessarily share yet, it’s a first draft for your own clarity. Pair up and talk about this with a partner.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="the-how-of-decision-making" class="level2">
+<h2 class="anchored" data-anchor-id="the-how-of-decision-making">The ‘how’ of decision making</h2>
+<p>Once you know who is making decisions, you can think about how you make them. What input do you include, what rubric do you use for making decisions (even if informal)? Having project goals and knowing roles within the team can already have put you on a path to make this process easier.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Exercise
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>How would you say decisions are made on your project now? Write a couple of sentences that describe how decisions are made. What’s clear about your decision making approach? What could be clearer?</p>
+</div>
+</div>
+<section id="resolving-conflict" class="level3">
+<h3 class="anchored" data-anchor-id="resolving-conflict">Resolving conflict</h3>
+<p>You have some clarity on who makes decisions and how, and that’s a big help! There will always though be disagreement, either within the group of decision makers, or with community members. So how do you resolve conflict? This is one of the top thing we’re usually uncomfortable with. Conflict isn’t always bad! It can help us get to better ideas, but it isn’t usually something we look forward to encountering.</p>
+<p>In this section we’ll focus on conflict with contributors or users, because this is conflict that is usually in the open in open source projects, which adds some additional layers.</p>
+<p>There’s a few steps of assessment and responses you can go through.</p>
+<ul>
+<li>Step 1: Is this a new person or someone with consistent engagement on the project?
+<ul>
+<li>Is this a person new to the project who might not know about how to coin</li>
+</ul></li>
+</ul>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
