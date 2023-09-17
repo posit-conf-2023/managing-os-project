@@ -14,7 +14,7 @@ The people who use and contribute to your project all might have different ideas
 
 So, like with most things, we start first with more questions than answers!
 
-* [Slides](https://docs.google.com/presentation/d/1s_Oy-BoDUqjDbWoNr17xHQMvNhcRgGAZZzNE3fS_Rso/edit#slide=id.g129ffda1416_0_77)
+* [Slides](https://docs.google.com/presentation/d/1pZxDRdXzvL5lTtJmJXfzSM9SmAMcE5VFEclKpi07fJk/)
 * [Worksheet](worksheets/project-goals-worksheet.pdf)
 
 We're going to go through the questions in the 'Project Goals' worksheet and answer them for your project. Note that none of these questions are meant to ask you to create solutions! This is about gathering information about your goals. 
