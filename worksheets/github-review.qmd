@@ -1,0 +1,79 @@
+---
+title: "Github issue process"
+---
+
+These are some ideas for reviewing github issues
+
+**GitHub issue process**
+
+# **Motivation**
+
+-   Want to look at each issue the fewest possible number of times. The process should be designed to avoid re-reading issues.
+
+-   The GitHub issues interface makes it hard to work with \>25 issues at once. The process should be designed to narrow down to \<25 related issues.
+
+-   GitHub notifications are ephemeral and hard to manage. The process should allow you to ignore notifications without guilt, knowing that you will see them again at the right time.
+
+# **Issue triage**
+
+Issue triage ensures that every issue has a minimal reprex that allows you to understand and recreate the problem.
+
+## Reprex
+
+If an issue does not have a reprex, add the label **reprex** and include the reprex saved reply:
+
+> Can you please provide a minimal reprex (reproducible example)? The goal of a reprex is to make it as easy as possible for me to recreate your problem so that I can fix it: please [help me help you!](https://nypdecider.files.wordpress.com/2014/08/help-me-help-you.gif)
+>
+> If you've never heard of a reprex before, start by reading "[What is a reprex](https://github.com/jennybc/reprex#what-is-a-reprex)", and follow the advice further down that page.
+
+If an issue does not have a reprex after 7 days, close it with the no-reprex saved reply:
+
+> I've closed this issue due to lack of requested reprex. If you still care about this bug, please open a new issue with a reprex.
+>
+> If the reprex is not minimal, or it's not clear what the problem is, engage with the user. It's tempting to be curt because you have so many issues to process, but generally you'll save time in the long run if you carefully explain how the issue could be improved, and how it helps you.
+
+\
+
+## Labels
+
+Once the issue has a reprex it needs be labelled with a "type" and (optionally) an "area":
+
+-   There are three main types: **bug** (#e02a2a), **feature** (#009800), and **docs** (#0052cc).
+
+-   Each repo will have different areas. These will evolve over time as it becomes more clear what the key pieces of the package are. This type of label is particularly important when there are \>25 issues as it makes it much easier to find duplicates.
+
+-   usethis::use_github_labels() lets you use all standard tidyverse labels are present for your repo and set to standard colors. It does not clobber existing labels unless you ask and even then it is very conservative. usethis::tidy_labels() shows current defaults.
+
+## One-to-One
+
+Each issue should encapsulate one problem. There are two common exceptions:
+
+-   One issue represents multiple problems. Either the original author bundled together multiple problems, or later commenters have added problems that they think are related (but aren't). Either way, you're better off creating one new issue for each problem and closing the current issue.
+
+-   One problem appears in multiple issues. In this case, create a new meta-issue that links to all the existing issues, then close the old issues leaving only the meta issue open.
+
+These problems tend to be more pronounced in repos that have been lying fallow for some time.
+
+# **GitHub projects**
+
+Use projects to ensure that you have a clear "next task", and you have a single priority ranking at any given time.
+
+A project should be associated with a person (i.e. named according to their GitHub username), and should have (at least) three columns:
+
+-   **To do:** an ordered list of issues which you can tackle next.
+
+-   **Blocked:** an issue that you've started working on, but input from someone else before you can continue on it.
+
+-   **Done:** this is mostly here for psychological satisfaction.
+
+# **Weekly review of active projects**
+
+Once a week:
+
+-   Triage all new issues (i.e. all issues without labels)
+
+-   Process all issues that need a reprex (either gently prodding or closing)
+
+-   Review all issues (or large projects issues with a given label) and add specified issues to your to do list.
+
+This ensures that it's always clear what you should do next, while minimising the time spent re-reading issues. You either think about what you should be working, or steadily work down a list of issues: you are not required to context switch between the two modes. You can ignore notifications without guilt, because you know you will see the issues again in the future.

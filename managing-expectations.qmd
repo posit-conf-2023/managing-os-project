@@ -31,6 +31,8 @@ In your Code of Conduct do you have:
 
 If after looking through this information, you'd like to learn more about Codes of Conduct, this is a good resource. 
 
+* [How to respond to Code of Conduct Reports](https://frameshiftconsulting.com/resources/code-of-conduct-book/#book) by Valerie Aurora
+
 :::
 
 While there are people who will mainly use your project, and not engage with the code, there's a spectrum of users to contributors, not clear categories. In open source, most contributors are also users of the software. That's why they want to contribute! 
@@ -54,27 +56,30 @@ Fill out this template for a CONTRIBUTING.md file for your project.
 
 You may have noticed in the CONTIBUTING file, we said that the guidelines were for people who are new contributors. That's because your project likely has different categories of contributors. 
 
-The tidyverse has a pull request guide that outlines three different types of contributors. For people in other modes of collaboration on your project, you should still be clear about the expectations for submission and review, but you likely want to address those differently than for someone who is submitting one or two issues/PRs to your project. 
+The tidyverse has a [contributing to the tidyverse document](https://tidyverse.tidyverse.org/CONTRIBUTING.html) as well as a new! [code review principles](https://code-review.tidyverse.org/)  that outline different [patterns of collaboration](https://code-review.tidyverse.org/collaboration/). For people in other modes of collaboration on your project, you should still be clear about the expectations for submission and review, but you likely want to address those differently than for someone who is submitting one or two issues/PRs to your project. 
 
 ::: callout-note
 ## Exercise
 
-Look at the .. section in the tidyverse PR guide. What types of collaboration do you have currently in your project? How might you adjust expectations for your project in the '...' mode, versus how the tidyverse guide does. 
+Look at the [collaboration patterns](https://code-review.tidyverse.org/collaboration/) section in the tidyverse PR guide. What types of collaboration do you have currently in your project? How might you adjust expectations for your project in the 'external contributors' mode, versus how the tidyverse guide does. 
 
 :::
 
 ## Language 
 
-You've done a great job figuring out how you'd best like contributions, and your goals and boundaries for the project. Still, people won't necessarily see this information when they come to your project, so it will be a process of consistently onboarding new people and replying to issues and PRs. Ideally you want to be able to say no when needed, and still keep people engaged and feel included.
+You've done a great job figuring out how you'd best like contributions, and your goals and boundaries for the project. Still, people won't necessarily see this information when they come to your project, so it will be a process of consistently onboarding new people and replying to issues and PRs and figuring out your process. Ideally you want to be able to say no when needed, and still keep people engaged and feel included.
 
-These are some ideas and templates of language you can use in different situations. Note though, that everyone has their different style that's true to them, so adapt as needed to match who you and your project are. 
+These are [some ideas and templates](worksheets/github-review.html) of language you can use in different situations. 
+
+Note though, that everyone has their different style that's true to them, so adapt as needed to match who you and your project are. 
 
 ### Examples
 
 These are some examples of response styles and approaches where you can see the style matches the maintainer, and also makes people feel positively about the project, even if the project isn't looking for a lot of active contributions.
 
-- bear project
-- tidyverse
+* beartype: [apologizing for taking some time to respond](https://github.com/beartype/beartype/issues/270)
+* [someone who was so impressed by the issues they wanted to contribute] (https://github.com/beartype/beartype/issues/12)
+here’s one where the maintainer makes friends over * [legacy usernames](https://github.com/beartype/beartype/issues/226#issuecomment-1512519495), which is just funny! 
 
 **What examples do you have that you like?**
 
@@ -90,4 +95,7 @@ Try adapting one of these language templates for one of your open issues or PRs.
 
 :::
 
+### Resources
+
+* [Open source community management from Jono Bacon](https://www.jonobacon.com/)
 
