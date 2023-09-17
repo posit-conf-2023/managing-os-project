@@ -77,9 +77,10 @@ Note though, that everyone has their different style that's true to them, so ada
 
 These are some examples of response styles and approaches where you can see the style matches the maintainer, and also makes people feel positively about the project, even if the project isn't looking for a lot of active contributions.
 
-* beartype: [apologizing for taking some time to respond](https://github.com/beartype/beartype/issues/270)
-* [someone who was so impressed by the issues they wanted to contribute] (https://github.com/beartype/beartype/issues/12)
-here’s one where the maintainer makes friends over * [legacy usernames](https://github.com/beartype/beartype/issues/226#issuecomment-1512519495), which is just funny! 
+- beartype: 
+    - [apologizing for taking some time to respond](https://github.com/beartype/beartype/issues/270)
+  - [someone who was so impressed by the issues they wanted to contribute](https://github.com/beartype/beartype/issues/12)
+  - the maintainer makes friends over [legacy usernames](https://github.com/beartype/beartype/issues/226#issuecomment-1512519495), which is just funny! 
 
 **What examples do you have that you like?**
 
